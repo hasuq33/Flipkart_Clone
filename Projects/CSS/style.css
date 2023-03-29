@@ -1,0 +1,120 @@
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Balsamiq+Sans&display=swap');
+  :root {
+    --main-bg-color: #2874f4;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+  background-color: var(--main-bg-color);
+}
+nav{
+  display: flex;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+nav img{
+  width: 90px;
+  padding: 0px 25px;
+
+}
+img{
+  width:auto;
+}
+nav ul{
+  display: flex;
+  height: 58px;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+nav ul li{
+  list-style: none;
+  padding: 0px 23px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+}
+
+.search input{
+  width: 30vw;
+  height: 20px;
+  margin: 0px 16px 0px 56px;
+  border: 0px solid;
+  padding: 0px 12px;
+}
+
+.search btn{
+  font-family: 'Baloo Bhai 2', cursive;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 900;
+}
+
+
+
+.container{
+  min-height: calc(100vh - 58px - 12vh);
+}
+
+.slider{
+ width: 80vw;
+ margin: 12px auto;
+ overflow: hidden; 
+  
+}
+
+.cards{
+   display: flex;
+flex-direction: row;
+overflow:hidden;
+}
+
+.card{
+ max-width: 91vw;
+ margin: 37px auto;;
+ font-family: 'Baloo Bhai 2', cursive;
+ font-family: 'Balsamiq Sans', cursive;
+}
+
+.card-Items{
+  /* position: relative; */
+   display: inline-flex;
+   justify-content: center;
+   flex-direction: column; 
+   margin: 10px 20px;
+}
+
+.card-Items img:hover{
+  margin: 2px  ;
+  height: 200px;
+  width: 200px;
+}
+
+
+.card h2{
+  font-family: 'Baloo Bhai 2', cursive;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+
+footer{
+    background-color:var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Balsamiq Sans', cursive;
+}
